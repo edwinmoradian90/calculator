@@ -1,0 +1,32 @@
+.clear-btn {
+  height: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1.4em;
+  background-color: #74BDCB;
+  color: lightcyan;
+  flex: 1;
+}
+
+.clear-btn:hover {
+  background: red;
+  color: white;
+  cursor: pointer;
+  animation-name: fadecolor;
+  animation-duration: .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadecolor {
+  from {
+    background-color: #74BDCB;
+    color: white;
+  }
+
+  to {
+    background-color: red;
+    color: lightsalmon;
+  }
+}
